@@ -28,6 +28,10 @@ const Content = styled.span`
   text-decoration: ${({ complete }:{complete:boolean}) => (complete ? 'line-through' : 'none')};
 `;
 
+const Test = styled.div`
+  color:red;
+`;
+
 const RemoveButton = styled.button`
   width: 60px;
   height: 24px;
